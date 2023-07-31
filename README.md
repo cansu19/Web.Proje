@@ -9,3 +9,4 @@ olacak)Barınağa hayvan kabul ve sahiplenme sistemi
 • Entity Framework Core ORM
 • Bootstrap Tema
 • HTML5, CSS3, Javascript ve JQUERY
+
