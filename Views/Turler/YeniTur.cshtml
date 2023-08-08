@@ -1,0 +1,15 @@
+﻿@model Barinak.Odev.Models.Turler
+@{
+    ViewData["Title"] = "YeniTur";
+    Layout = "~/Views/Shared/_TurLayout.cshtml";
+}
+
+
+
+
+<form class="form-group" method="post">
+    <b> TÜR ADI </b>
+    @Html.TextBoxFor(x=>x.TurAd, new {@class="form-control"}) @*girilern verileri turlerle eşleştirdim*@
+    <button class="btn btn-info">Tür Ekle</button>
+</form>
+

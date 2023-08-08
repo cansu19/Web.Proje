@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Barinak.Odev
+build_property.RootNamespace = Barinak.Odev
+build_property.ProjectDir = C:\Users\Sahip\source\repos\Barinak.Odev\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Sahip\source\repos\Barinak.Odev
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Hay/HayvanDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGF5XEhheXZhbkRldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Hay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGF5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Hay/Vazgec.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGF5XFZhemdlYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Hay/YeniHayvan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGF5XFllbmlIYXl2YW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Login/GirisYap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cR2lyaXNZYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Login/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9nT3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Shared/_HayLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IYXlMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Shared/_TurLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UdXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Turler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Turler/TurListe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybGVyXFR1ckxpc3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Turler/YeniTur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybGVyXFllbmlUdXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sahip/source/repos/Barinak.Odev/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3blm7gk3y0

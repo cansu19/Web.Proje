@@ -1,0 +1,47 @@
+﻿@using Barinak.Odev.Models
+@model List<Hayvanlar>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_HayLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Ad</th>
+        <th>Yas</th>
+        <th>Sehir</th>
+        <th>Tür</th>
+        <th>Sil</th>
+        <th>Detay</th>
+        <th>Sahiplenme Durumu</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            @*<td>@x.hayid</td>*@
+            <td>@x.ad</td>
+            <td>@x.yas</td>
+            <td>@x.sehir</td>
+            <td>@x.Turler.TurAd</td>
+            <td>@x.sahiplenmeDurum</td>
+            <td><a href="/Hay/HayvanSil/@x.hayid" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Hay/HayvanDetay/@x.hayid" class="btn btn-success">Detaylar</a></td>
+            @{if(x.sahiplenmeDurum=="sahipsiz")
+            {
+            <td><a href="/Hay/HayvanSahiplen/@x.hayid" class="btn btn-info">Sahiplen</a></td>
+            }}
+            @{if (x.sahiplenmeDurum == "sahipli")
+            {
+                <td><a href="/Hay/Vazgec/@x.hayid" class="btn btn-danger">Sahiplenmekten Vazgeç</a></td>
+            }}
+           
+           
+            
+           
+        </tr>
+    }
+</table>
+<a href="/Hay/YeniHayvan/" class="btn btn-primary">Yeni Hayvan Ekle</a>
+
+

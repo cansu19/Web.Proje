@@ -1,0 +1,54 @@
+﻿@using Barinak.Odev.Models;
+@model Hayvanlar
+
+@{
+    ViewData["Title"] = "HayvanDetay";
+    Layout = "~/Views/Shared/_HayLayout.cshtml";
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Personal Rehber a Rehberging Category Flat Bootstarp  Responsive Website Template | Single :: w3layouts</title>
+    <link href="~/web2/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/web2/css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Personal Rehber Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!----webfonts---->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic' rel='stylesheet' type='text/css'>
+    <!----//webfonts---->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--end slider -->
+
+</head>
+<body>
+    <div class="single">
+        <div class="container">
+            <div class="col-md-8 single-main">
+
+                <div class="single-grid">
+                    <img src="@Model.FotoUrl" alt="" style="height:450px;width:650px;" />
+                    <p><b>Adi:</b> @Model.ad</p>
+                    <p><b>Yaş:</b> @Model.yas</p>
+                    <p><b>Cinsiyet:</b> @Model.Cinsiyet</p>
+                    <p><b>Bulunduğu Şehir:</b> @Model.sehir</p>
+                    
+                   
+
+                </div>
+
+
+            </div>
+
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+

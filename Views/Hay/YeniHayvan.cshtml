@@ -1,0 +1,26 @@
+﻿@model Barinak.Odev.Models.Hayvanlar
+@{
+    ViewData["Title"] = "YeniHayvan";
+    Layout = "~/Views/Shared/_HayLayout.cshtml";
+}
+
+<h1>YeniHayvan</h1>
+
+<form class="form-group" method="post">
+    <b> HAYVANIN ADI </b>
+    @Html.TextBoxFor(x=>x.ad, new {@class="form-control"}) @*girilern verileri turlerle eşleştirdim*@
+    <b> HAYVANIN YAŞI </b>
+    @Html.TextBoxFor(x=>x.yas, new {@class="form-control"})
+    <b> HAYVANIN CİNSİYETİ </b>
+    @Html.TextBoxFor(x=>x.Cinsiyet, new {@class="form-control"})
+    <b> HAYVANIN YAŞADIĞI ŞEHİR </b>
+    @Html.TextBoxFor(x=>x.sehir, new {@class="form-control"})
+    <b> HAYVANIN TÜRÜ </b>
+    @Html.DropDownListFor(x=>x.Turid,(List<SelectListItem>)ViewBag.dgr,new{@class="form-control"})
+    <b> HAYVANA AİT FOTOĞRAF </b>
+    @Html.TextBoxFor(x=>x.FotoUrl, new {@class="form-control"})
+    <b> SAHİPLENDİRİLME DURUMU</b>
+    @Html.TextBoxFor(x=>x.sahiplenmeDurum, new {@class="form-control"})
+
+    <button class="btn btn-info">Yeni Hayvan Ekle </button>
+</form>

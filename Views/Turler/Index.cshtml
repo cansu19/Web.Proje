@@ -1,0 +1,27 @@
+﻿@using Barinak.Odev.Models
+@model List<Turler>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TurLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Tür</th>
+        <th>Sil</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.turid</td>
+            <td>@x.TurAd</td>
+            <td><a href="/Turler/TurSil/@x.turid" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Turler/TurListe/@x.turid" class="btn btn-success">Detay</a></td>
+        </tr>
+    }
+</table>
+<a href="/Turler/YeniTur/" class="btn btn-primary">Yeni Tür Ekle</a>
+
+

@@ -1,0 +1,154 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BARINAK</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="~/web3/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="~/web3/css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-paw"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">BARINAK</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="/Home/Index/">
+                    <i class="fas fa-paw"></i>
+                    <span>Ana Sayfa</span>
+                </a>
+            </li>
+
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="/Turler/Index/">
+                    <i class="fas fa-paw"></i>
+                    <span>Hayvan Türleri</span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="/Hay/Index/">
+                    <i class="fas fa-paw"></i>
+                    <span>Hayvanlar</span>
+                </a>
+
+            </li>
+            <li class="nav-item">
+
+                <a class="nav-link" asp-area="" asp-controller="Login" asp-action="GirisYap">
+                    <i class="fas fa-paw"></i>
+                    Giriş Yap
+                </a>
+
+
+
+            </li>
+            <li class="nav-item">
+
+                <a class="nav-link" asp-area="" asp-controller="Login" asp-action="LogOut">
+                    <i class="fas fa-paw"></i>
+                    Çıkış Yap
+
+                </a>
+
+
+            </li>
+
+            @*
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
+            <a class="nav-link" href="/Account/Register">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Register</span>
+            </a>
+            </li>*@
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+
+
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+
+
+                <!-- Bootstrap core JavaScript-->
+                <script src="~/web3/vendor/jquery/jquery.min.js"></script>
+                <script src="~/web3/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+                <!-- Core plugin JavaScript-->
+                <script src="~/web3/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+                <!-- Custom scripts for all pages-->
+                <script src="~/web3/js/sb-admin-2.min.js"></script>
+
+                <!-- Page level plugins -->
+                <script src="~/web3/vendor/chart.js/Chart.min.js"></script>
+
+                <!-- Page level custom scripts -->
+                <script src="~/web3/js/demo/chart-area-demo.js"></script>
+                <script src="~/web3/js/demo/chart-pie-demo.js"></script>
+                <environment include="Development">
+                    <script src="~/Identity/lib/jquery-validation/dist/jquery.validate.js"></script>
+                    <script src="~/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+                </environment>
+                <environment exclude="Development">
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"
+                            asp-fallback-src="~/Identity/lib/jquery-validation/dist/jquery.validate.min.js"
+                            asp-fallback-test="window.jQuery && window.jQuery.validator"
+                            crossorigin="anonymous"
+                            integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+                    </script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"
+                            asp-fallback-src="~/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+                            asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive"
+                            crossorigin="anonymous"
+                            integrity="sha384-R3vNCHsZ+A2Lo3d5A6XNP7fdQkeswQWTIPfiYwSpEP3YV079R+93YzTeZRah7f/F">
+                    </script>
+                </environment>
+
+
+
+                @RenderBody()
+</body>
+
+</html>
